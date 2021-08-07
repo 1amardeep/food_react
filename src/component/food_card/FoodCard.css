@@ -1,0 +1,63 @@
+.card{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 0px 10px grey;
+    margin: 10px;
+    position: relative;
+}
+
+.btn{
+    float: right;
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    background: #c2c2e9;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.incr{
+    right:67px;
+}
+
+.decr{
+    right:30px;
+}
+
+.price{
+    float: left;
+    padding: 8px 4px 0px 36px;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.card img{
+    margin: 0 auto;
+    display: block;
+}
+
+.foodcard_container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.card_header{
+    position: relative;
+    margin-top:20px;
+}
+.order{
+    display: inline-block;
+    padding: 8px 0px;
+}
+.selected{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background: blue;
+    right: 0px;
+}

@@ -1,0 +1,28 @@
+.list_style{
+    display: inline-block;
+    padding: 6px 12px;
+    color: white;
+    cursor: pointer;
+    margin: 10px 40px;
+}
+
+.ul_container{
+    background-color: #000;
+}
+
+.active, .list_style:hover{
+    color:black;
+    background-color: white;
+}
+
+.cart_icon{
+    float: right;
+    right: 12px;
+    position: relative;
+    top: 8px;
+}
+.cart_icon i{
+    font-size: 32px;
+    color: #fff;
+}
+
