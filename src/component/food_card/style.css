@@ -1,0 +1,22 @@
+.fixed {
+  position: sticky !important;
+  display: block;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar-item > svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.svgTable {
+  width: 1.4rem;
+  height: 1.4rem;
+  cursor: pointer;
+}
